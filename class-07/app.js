@@ -25,6 +25,33 @@
 
 
 
+
+
+// const fruits = ['apple' , 'banana' , 'orange' , 'mango' , 'strawberry'];
+
+// const fruits = ['apple' , 'banana' , 'orange' , 'mango' , 'strawberry' , ['pineapple' , 'melon' , 'grapes']];
+
+
+// console.log(fruits);
+// console.log(fruits.length);
+// console.log(typeof(fruits));
+// console.log(fruits[3]);
+// console.log(fruits[5][2]);
+
+// console.log(`${fruits[0]} ${fruits[5][0]}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
 //     splice
 
 
@@ -69,13 +96,35 @@
 // console.log(userName);
 
 
-    //   var 
-   //    redeclare
-//    //     reassign
 
 
-//    let userName = "muhammad";
 
+
+
+
+
+    //    var      declare bhi hota hai 
+   //     var      redeclare bhi hota hai
+    //    var      reassign bhi hota hai
+
+
+
+
+    // var userName = 'muhammad' ;     //  declare
+// var userName = 'faizan' ;      // redeclare
+// userName = 'asim';              //      reassign
+
+// console.log(userName);
+
+
+
+        //   let 
+
+    // let redeclare nhi hota hain !
+    // let reassign hota hain ! 
+
+
+  //    let userName = "muhammad"; 
 //    console.log(userName)
 
 
@@ -155,9 +204,7 @@
 
 
 
-
-
-
+        //  Array Method 
 
 
 //push
@@ -191,14 +238,14 @@
 
 
 
-//   unshift    //  shuru mai add hoga
+//   unshift    //  shuru mai Value add hogi
 
 // const fruits = ['mango' , 'orange' , 'apple' , 'banana'];
 // fruits.unshift('grapes');
 // console.log(fruits)
 
 
-    //   shift    // shuru se hat jayen ga
+    //   shift    // shuru se value hat jayen gi
 
 // const fruits = ['mango' , 'apple' , 'banana' , 'orange'];
 // fruits.shift('');
@@ -231,7 +278,7 @@
 
 
 
-    //   split        
+    //   split       value ko string mai torta hai      
 
  
 // const names = 'Muhammad faizan hanif';
@@ -241,7 +288,7 @@
 
     
    
-//     //  join
+//     //  join        value ko jorta hai
 
 // const names = ['muhammad' , 'faizan' , 'hanif'];
 // const arr = names.join(' ')
@@ -262,77 +309,64 @@
 
 
 
+//      concat       2 array ko ek sath concat kar deta hai
+
+
+
+// const num = ['Muhammad' , 'Faizan' , 'Asim'];
+// const num1 = ['Talha' , 'sameer' , 'ali'];
+
+// const myArr = num.concat(num1);
+// console.log(myArr)
+
+
+
+
+
+  //     sort       start se alphabet se use hota ha
+
+
+
+
+// const fruits = ['orange' , 'mango' , 'apple' , 'banana'];
+// fruits.sort();
+
+// console.log(fruits);
+
+
+// const point = [40 , 60 , 100 , 5 , 1 , 10 ,30];
+// point.sort(function(b , c){return b - c});
+// console.log(point);
 
 
 
 
 
 
+//     Reverse          array method Reverse hote ha 
 
 
 
 
+// const fruits = ['orange' , 'mango' , 'apple' , 'banana'];
+// fruits.reverse()
+
+// console.log(fruits);
+
+
+  
+//     indexof 
 
 
 
-// const fruits = ['apple' , 'banana' , 'orange' , 'mango' , 'grape' , 'straberry'];
+// const fruits = ['banana' , 'orange' , 'grapes' , 'apple' , 'strawberry']
+// const index = fruits.indexOf('apple' , 3)
 
-// const input = document.querySelector('#input-1')
-// // console.log(fruits.includes('banana'));
-
-
-// const change = document.querySelector('.status');
-
-// function fruitsbtn(){
-//     console.log(input.value);
-
-//     if(fruits.includes(input.value)){
-//         console.log('fruits available hain..');
-//         change.innerHTML = 'frutis is available';
-    
-//     }else{
-//         console.log('fruits is not available...');
-//         change.innerHTML = "frutis is not available";
-//     }
-
-//     input.value = ''
-// }
+// console.log(index);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const fruits = ['apple' , 'banana' , 'orange' , 'mango' , 'grape' , 'straberry'];
-
-
-// const input = document.querySelector('#input-1')
-// const change = document.querySelector('.status');
-
-// function getfruits(){
-//     console.log(input.value);
-//     if(fruits.includes(input.value)){
-//         console.log('fruits available ha');
-//         change.innerHTML = 'fruits is available';
-//     }else{
-//         console.log('fruits availabe nhi hai');
-//         change.innerHTML = 'Fruits is not available';
-//     }
-//     input.value = '' ;
-// }
 
 
 
