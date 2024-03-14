@@ -1,6 +1,6 @@
 // console.log('hello world');
 
-
+            //   console.log('hello array');
 
 
 // let foods = ['biryani'  , 'pulao' , 'daal' , 'nihari' , 'krahi' , 'qourma' , ['spicy' , 'normal'] ]
@@ -25,7 +25,7 @@
 
 
 
-// splice
+//     splice
 
 
 // const fruits = ['orange' , 'mango' , 'watermelon' , 'pineapple' , 'guave' , 'apple' , 'melon' , 'grapes' , 'kiwi' , 'annar' , 'nshpati'];
@@ -35,7 +35,7 @@
 
 
 
-// split 
+//    split 
 
  
 // const names = 'my name is muhammad';
@@ -256,27 +256,110 @@
 // fruits.splice(1 , 3 , 'gvaue' , 'kiwi');
 // console.log(fruits)
 
-const fruits = ['apple' , 'banana' , 'orange' , 'mango' , 'grape' , 'straberry'];
-
-const input = document.querySelector('#input-1')
-// console.log(fruits.includes('banana'));
 
 
-const change = document.querySelector('.status');
 
-function fruitsbtn(){
-    console.log(input.value);
 
-    if(fruits.includes(input.value)){
-        console.log('fruits available hain..');
-        change.innerHTML = 'frutis is available';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const fruits = ['apple' , 'banana' , 'orange' , 'mango' , 'grape' , 'straberry'];
+
+// const input = document.querySelector('#input-1')
+// // console.log(fruits.includes('banana'));
+
+
+// const change = document.querySelector('.status');
+
+// function fruitsbtn(){
+//     console.log(input.value);
+
+//     if(fruits.includes(input.value)){
+//         console.log('fruits available hain..');
+//         change.innerHTML = 'frutis is available';
     
+//     }else{
+//         console.log('fruits is not available...');
+//         change.innerHTML = "frutis is not available";
+//     }
+
+//     input.value = ''
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const fruits = ['apple' , 'banana' , 'orange' , 'mango' , 'grape' , 'straberry'];
+
+
+// const input = document.querySelector('#input-1')
+// const change = document.querySelector('.status');
+
+// function getfruits(){
+//     console.log(input.value);
+//     if(fruits.includes(input.value)){
+//         console.log('fruits available ha');
+//         change.innerHTML = 'fruits is available';
+//     }else{
+//         console.log('fruits availabe nhi hai');
+//         change.innerHTML = 'Fruits is not available';
+//     }
+//     input.value = '' ;
+// }
+
+
+
+
+
+
+
+
+
+const fruitName =  ['apple' , 'banana' , 'mango' , 'grapes' , 'orange' , 'strawberry'];
+
+
+const input = document.querySelector('#input');
+const change = document.querySelector('.status')
+
+function getfruits(){
+    console.log(input.value);
+    
+    if(fruitName.includes(input.value)){
+        console.log('fruits available hain')
+        change.innerHTML = 'fruits is available';
     }else{
-        console.log('fruits is not available...');
-        change.innerHTML = "frutis is not available";
+        change.innerHTML = 'fruits is not availabe'
     }
 
-    input.value = ''
+    input.value = '' ;
+
 }
 
 
@@ -288,23 +371,12 @@ function fruitsbtn(){
 
 
 
+// const fruits = ['apple' , 'banana' , 'orange' , 'mango' , 'grape' , 'straberry'];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// fruits.splice(2 , 2);
+// fruits.splice(2 , 0 , 'fruits-1' , "fruits-2");
+// fruits.splice(3 , 0 , 'fruits-3' , 'fruits-4');
+// console.log(fruits);
 
 
 
